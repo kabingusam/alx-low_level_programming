@@ -15,17 +15,16 @@ int main(void)
 	/* your code goes there */
 	if (n < 0)
 	{
-		printf("negative\n");
+		printf("%d is %s\n", n, "negative\n");
 	}
 	else if (n > 0)
 	{
-		printf("positive\n");
+		printf("%d is %s\n", n, "positive\n");
 	}
 	else
 	{
-		printf("zero\n);
+		printf("%d is %s\n", n, "zero\n");
 	}
 	return (0);
 
 }
-[C[D[A[C
