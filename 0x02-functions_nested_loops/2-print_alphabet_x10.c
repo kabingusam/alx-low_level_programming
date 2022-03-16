@@ -16,4 +16,8 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 12c2d91a21f0ef5ef115ce30fca9e60a7bcc3e0f
