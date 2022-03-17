@@ -4,7 +4,6 @@
  * Return:return 0 with success.
  */
 int main(void)
-	
 {
 	long i;
 	long num = 612852475143;
