@@ -12,5 +12,3 @@ void print_line(int n)
 			_putchar('_');
 	_putchar('\n');
 }
-
-[B[A[A[C[A[A[C
