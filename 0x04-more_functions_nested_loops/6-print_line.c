@@ -4,7 +4,6 @@
  * @n: the number of underscores to print.
  */
 void print_line(int n)
-	
 {
 	int i;
 
