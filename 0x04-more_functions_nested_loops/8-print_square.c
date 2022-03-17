@@ -4,6 +4,7 @@
  * @n: the number of # to print in each line.
  */
 void print_square(int n)
+	
 {
 	int i, j;
 
