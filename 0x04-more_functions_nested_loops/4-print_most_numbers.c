@@ -4,7 +4,6 @@
  * Return: 0 on success.
  */
 void print_most_numbers(void)
-	
 {
 	int i = 0;
 
