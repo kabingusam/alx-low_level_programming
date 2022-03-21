@@ -1,14 +1,13 @@
 /**
-*main -Writes a function that swaps the values of two integers.
-* prototype -void swap_int(int *a, int *b);
-*@a - first value to swap
-*@b - second value to swap
-*/
+ * swap_int - switches value of first input with the value of the second input.
+ * @a: First value to swap.
+ * @b: Second value to swap.
+ */
 void swap_int(int *a, int *b)
 {
-    int temp;
+	int temp;
 
-    temp = *a;
-    *a = b;
-    *b = temp; 
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
