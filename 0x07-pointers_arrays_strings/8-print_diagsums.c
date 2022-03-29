@@ -4,6 +4,7 @@
  * @a: pointer to 2D array.
  * @size: which diagonal to add.
  */
+
 void print_diagsums(int *a, int size)
 {
 	int i, sumx, sumy;
