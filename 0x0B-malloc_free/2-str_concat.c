@@ -6,7 +6,7 @@
  * Return: pointer to a new buffer containing s1 and s2
  */
 char *str_concat(char *s1, char *s2)
-{
+{       
         char *p;
         int s1count, s2count, sizeBuffer, i;
 
