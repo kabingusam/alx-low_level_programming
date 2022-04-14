@@ -6,10 +6,10 @@ functions used:
 
 Structure : a user defined data type available in C that allows to  combine data items of different kinds.
 
-init_dog.
+1.init_dog.
 
-print_dog - prints the dog struc.
+2.print_dog - prints the dog struc.
 
-new_dog - creates a new struct of type dog.
+3.new_dog - creates a new struct of type dog.
 
-free_dog.
+4.free_dog.
