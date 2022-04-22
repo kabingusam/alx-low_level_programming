@@ -5,7 +5,7 @@
  * @h: singly linked list to print
  *
  */
-size_t list_list(const list_t *h)
+size_t print_list(const list_t *h)
 {
     size_t i;
 
