@@ -1,4 +1,8 @@
 # More singly linked lists
 useful links:
-.url(https://www.log2base2.com/)
-.https://stackoverflow.com/
+
+0.url(https://www.log2base2.com/)
+	
+
+1.https://stackoverflow.com/
+	prints numbers followed by a new line
