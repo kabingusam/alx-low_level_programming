@@ -1,9 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#ifndef LINK_H
-#define LINK_H
-
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -35,4 +32,3 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif
-
