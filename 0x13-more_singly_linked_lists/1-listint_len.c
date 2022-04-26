@@ -9,9 +9,12 @@
 */
 size_t listint_len(const listint_t *h)
 {
-    size_t i; //initialize the count variable
+    size_t nodes = 0;
 
-    for(i = 0; h; i++)
+    while(h)
+    {
+        nodes++;
         h = h->next;
-    return(i);
+    }
+    return(nodes);
 }
