@@ -1,4 +1,17 @@
 
+listint_t *tmp;
+
+while(head != NULL)
+{
+    tmp = head;
+    head = head->next;
+    free(tmp);
+}
+head = NULL;
+
+
+
+
 
 #include "lists.h"
 #include <stdio.h>
@@ -26,3 +39,19 @@ void free_listint2(listint_t **head)
 
 	head = NULL;
 }
+
+
+
+    listint_t *tmp;
+
+	if (head == NULL)
+		return;
+
+	while (*head)
+	{
+		tmp = (*head)->next;
+		free(*head);
+		*head = tmp;
+	}
+
+	head = NULL;
