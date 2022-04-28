@@ -1,78 +1,32 @@
-// #include <stdio.h>
-// #include "main.h"
-// /**
-// * binary_to_uint : converts binary number to an unsigned int.
-// * @b: is pointing to a string of 0 and 1 chars
-// * the converted number, or 0 if
-// * return: the converted number
-// *        or 0 if :
-// *           - there is one or more chars in the 
-// *            string b that is not 0 or 1.
-// *           - b is NULL.
-// */
-// unsigned int binary_to_uint(const char *b)
-// {
-//     unsigned int numb = 0;
-//     mult = 1;
-//     int len;
-
-//     if(!b)
-//         return(0);
-// 	for (len = 0; b[len];)
-// 		len++;
-// 	for (len -= 1; len >= 0; len--)
-// 	{
-// 		if (b[len] != '0' && b[len] != '1')
-// 			return (0);
-
-// 		numb += (b[len] - '0') * mult;
-// 		mult *= 2;
-// 	}
-// 	return (numb);
-// }
+#include <stdio.h>
 #include "main.h"
 /**
-  * _stoi - converts chars to ints
-  * @c: char to convert
-  * Return: converted int
-  */
-unsigned int _stoi(char c)
-{
-	return ((unsigned int) c - '0');
-}
-/**
-  * _strlen - calculates the length of the string
-  * @s: input
-  * Return: length of string
-  */
-unsigned int _strlen(const char *s)
-{
-	unsigned int i;
-
-	for (i = 0; s[i]; i++)
-		;
-	return (i);
-}
-/**
-  * binary_to_uint - converts a string of 1's and 0's to a decimal number
-  * @b: string to convert
-  * Return: unsigned decimal number
-  */
+* binary_to_uint : converts binary number to an unsigned int.
+* @b: is pointing to a string of 0 and 1 chars
+* the converted number, or 0 if
+* return: the converted number
+*        or 0 if :
+*           - there is one or more chars in the 
+*            string b that is not 0 or 1.
+*           - b is NULL.
+*/
 unsigned int binary_to_uint(const char *b)
 {
-	int i;
-	unsigned int result, tmp, expo;
+    unsigned int numb = 0;
+    mult = 1;
+    int len;
 
-	if (!b)
-		return (0);
-	result = tmp = 0;
-	expo = 1;
-	for (i = _strlen(b) - 1; b[i]; i--, expo *= 2)
+    if(!b)
+        return(0);
+	for (len = 0; b[len];)
+		len++;
+	for (len -= 1; len >= 0; len--)
 	{
-		if (b[i] != '0' && b[i] != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
-		tmp = _stoi(b[i]);
-		result += tmp * expo;
+
+		numb += (b[len] - '0') * mult;
+		mult *= 2;
 	}
-	return (result);
+	return (numb);
 }
