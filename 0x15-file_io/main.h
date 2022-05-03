@@ -2,9 +2,8 @@
 #define MAIN_H
 
 /*
- * File: main.h
- * Desc: Header file containing prototypes for all functions
- *       written in the 0x14-file_io directory.
+ * File  : main.h
+ * main.h: Header file containing prototypes for all functions.
  */
 
 #include <sys/types.h>
