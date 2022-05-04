@@ -1,5 +1,8 @@
 # File I/O
 
+Useful links:
+.(https://linux.die.net/man/3/open)
+
 . Opening Modes in Standard I/O
 
 . Mode	
