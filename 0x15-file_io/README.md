@@ -1,7 +1,16 @@
 # File I/O
 
 Useful links:
+
 .(https://linux.die.net/man/3/open)
+
+.(inux.die.net/man/3/read)
+
+.(https://en.wikipedia.org/wiki/File_descriptor)
+
+.(https://linux.die.net/man/3/write)
+
+.(https://linux.die.net/man/2/close)
 
 . Opening Modes in Standard I/O
 
