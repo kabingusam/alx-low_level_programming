@@ -44,5 +44,3 @@ Useful links:
     If the file does not exist, it will be created
 12. ab+	Open for both reading and appending in binary mode:
     If the file does not exist, it will be created.
-
-
