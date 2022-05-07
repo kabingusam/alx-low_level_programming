@@ -12,35 +12,16 @@ Useful links:
 
 .(https://linux.die.net/man/2/close)
 
-.Opening Modes in Standard I/O
+.(https://linuxhint.com/understanding_elf_file_format/)
 
-.Mode	
+.(https://suchprogramming.com/exploring-elf/)
 
-1. r	Open for reading:
-    If the file does not exist, fopen() returns NULL.
-2. rb	Open for reading in binary mode:
-    If the file does not exist, fopen() returns NULL.
-3. w	Open for writing:If the file exists, its contents are overwritten:
-    If the file does not exist, it will be created.
-4. wb	Open for writing in binary mode:
-    If the file exists, its contents are overwritten.
-    If the file does not exist, it will be created.          
-5. a	Open for append:Data is added to the end of the file.	
-    If the file does not exist, it will be created:
-6. ab	Open for append in binary mode:
-    Data is added to the end of the file.
-    If the file does not exist, it will be created.
-7. r+	Open for both reading and writing:
-    If the file does not exist, fopen() returns NULL.
-8. rb+	Open for both reading and writing in binary mode:	
-    If the file does not exist, fopen() returns NULL.
-9. w+	Open for both reading and writing:
-    If the file exists, its contents are overwritten.
-    If the file does not exist, it will be created.
-10. wb+	Open for both reading and writing in binary mode:	
-    If the file exists, its contents are overwrite.
-    If the file does not exist, it will be created.
-11. a+	Open for both reading and appending:
-    If the file does not exist, it will be created
-12. ab+	Open for both reading and appending in binary mode:
-    If the file does not exist, it will be created.
+
+0. read_textfile -  reads a text file and prints it to the POSIX standard output.
+
+1. create_file - that creates a file.
+
+2. append_text_to_file.c -  appends text at the end of a file.
+
+3. 3-cp.c - copies the content of a file to another file.
+
