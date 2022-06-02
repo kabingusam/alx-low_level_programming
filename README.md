@@ -36,3 +36,7 @@ This projects are contained in the repository:
 20. 0x14-bit_manipulation(./0x14-bit_manipulation)
 21. 0x15-file_io(./0x15-file_io)
 22. simple_shell(./simple_shell)
+
+
+Authors:
+Kabingu Sammy.
