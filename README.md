@@ -6,7 +6,7 @@
 
 <h1><p align="center">C begins.</h1></p></font>
 
-C begins Programming.
+C Programming begins.
 
 This repository contains programs and codes written during the curriculum coverage on the software enginnering  course powered by ALX Africa.
 
