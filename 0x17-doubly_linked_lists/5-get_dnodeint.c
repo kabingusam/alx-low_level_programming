@@ -12,5 +12,5 @@
             return(NULL);
         head = head->next;
      }
-     return(head)
+     return(head);
  }
