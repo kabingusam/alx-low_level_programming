@@ -12,7 +12,7 @@
 ### Table of Contents
 ***
 1. [libdynamic.so](./#)
-2. [main.h]](./#)
+2. [main.h](./#)
 3. [1-create_dynamic_lib.sh](./#)
 4. [100-operations.so](./#)
 5. [101-make_me_win.sh](./#)
