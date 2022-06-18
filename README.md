@@ -35,6 +35,7 @@ This projects are contained in the repository:
 19. [0x13-more_singly_linked_lists](./0x13-more_singly_linked_lists)
 20. [0x14-bit_manipulation](./0x14-bit_manipulation)
 21. [0x15-file_io](./0x15-file_io)
+22. [0x17-doubly_linked_lists](./0x17-doubly_linked_lists)
 
 
 Authors:
