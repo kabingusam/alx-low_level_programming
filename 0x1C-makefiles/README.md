@@ -4,8 +4,8 @@
 which defines set of tasks to be executed. 
 - syntax:
 
-    target: dependencies
-        action
+            target: dependencies
+                action
 
 Files existent in the project:
 
